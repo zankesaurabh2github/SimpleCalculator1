@@ -20,8 +20,6 @@ public static void main(String[] args) {
 //		AverageInterface avg;
 //		FactorsInteface fac;
 //		EvenInterface ev;
-		
-		
 		boolean flag = true;
 		while(flag){
 			System.out.println("Welcome to console based application\n"+
@@ -34,88 +32,68 @@ public static void main(String[] args) {
 					"7. Cube of number\n"+ 
 					"8. Average of numbers\r\n" + 
 					"9. Factors of numbers\r\n" + 
-					"10.Find out even or odd number");
-			
-
+					"10.Find out even or odd number");		
 			int choice =0;
-
 					while(true) {
 						try {
 							System.out.println("Enter number From 1 to 10 Which operation you want to perform :");
-							choice = sc.nextInt();
-							
+							choice = sc.nextInt();							
 							break;
-
 						}
 						catch(InputMismatchException e) {
 //							e.printStackTrace();
 							System.out.println("Expecting int type data ");
 							System.out.println("Enter the int data between 1 to 10 ");
 							sc.next();
-
-						}
-						
+						}						
 					}
-					if(choice >= 1 && choice <=10) {
-						
-					
+					if(choice >= 1 && choice <=10) {						
 					switch (choice) {
 					
 					case 1:
 //						 add = new Additions();
 //						add.getAddition();
-						break;
-					
+						break;				
 					case 2:
 //					    sub = new Subtractions();
 //						sub.getSubtraction();
-						break;
-					
+						break;					
 					case 3:
 //						mul = new Multiplications();
 //						mul.getMultiplications();
-						break;
-					
+						break;					
 					case 4:
 //						div = new Divisions();
 //						div.getDivision();
-						break;
-					
+						break;					
 					case 5:
 //						mod = new Moduluss();
 //						mod.getModulus();
-						break;
-					
+						break;					
 					case 6:
 //						sq = new Squares();
 //						sq.getSquare();
-						break;
-					
+						break;					
 					case 7:
 //						c = new Cubes();
 //						c.getCube();
-						break;
-					
+						break;					
 					case 8:
 //						avg = new Averages();
 //						avg.getaverage();
-						break;
-					
+						break;					
 					case 9:
 //						fac = new Factorss();
 //						fac.getFactors();
-						break;
-					
+						break;					
 					case 10:
 //						ev = new Evens();
 //						ev.getEven();
-						break;
-						
+						break;						
 //						default :
 //							System.out.println(choice +" This option is not avaiable ");
 //							System.out.println("Select number between 1 to 10");
-//							break;
-		
+//							break;	
 		}
 	}
 					else {
@@ -136,17 +114,7 @@ public static void main(String[] args) {
 							flag = false;
 							break;
 						}
-					}
-					
-		
-		
-		
-		
+					}		
 		}
-
 }
-
-
-	
-
 }
