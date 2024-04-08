@@ -10,13 +10,13 @@ public class Calculator {
 public static void main(String[] args) {
 	
 	    Scanner sc = new Scanner(System.in);    
-//	    AdditionInterface add;
+	    AdditionInterface add;
 //	    SubtractionInterface sub;
 //		MultiplicationInterface mul;
-//		DivisionInterface div;
+		DivisionInterface div;
 //		ModulusInterface mod;
 //		SquareInterface sq;
-//		CubeInterface c;
+		CubeInterface c;
 //		AverageInterface avg;
 //		FactorsInteface fac;
 //		EvenInterface ev;
@@ -51,8 +51,8 @@ public static void main(String[] args) {
 					switch (choice) {
 					
 					case 1:
-//						 add = new Additions();
-//						add.getAddition();
+						 add = new Additions();
+						add.getAddition();
 						break;				
 					case 2:
 //					    sub = new Subtractions();
@@ -63,8 +63,8 @@ public static void main(String[] args) {
 //						mul.getMultiplications();
 						break;					
 					case 4:
-//						div = new Divisions();
-//						div.getDivision();
+						div = new Divisions();
+						div.getDivision();
 						break;					
 					case 5:
 //						mod = new Moduluss();
@@ -75,8 +75,8 @@ public static void main(String[] args) {
 //						sq.getSquare();
 						break;					
 					case 7:
-//						c = new Cubes();
-//						c.getCube();
+						c = new Cubes();
+						c.getCube();
 						break;					
 					case 8:
 //						avg = new Averages();
